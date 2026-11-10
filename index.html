@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Benz</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+  <div id="top"></div>
+  <div class="container-fluid">
+    <div class="row">
+
+      <!--nav 1-->
+      <div class="nav1 col-12 w-100  bg-black bg-opacity-90 fixed-top">
+        <ul class="col-12 d-flex justify-content-between align-items-center list-unstyled mb-0 px-3 px-lg-4">
+          <div class="d-flex align-items-center gap-3">
+            <li class=" d-none d-lg-block"><a class="text-secondary text-decoration-none hover-underline"
+                href="#">DE</a></li>
+            <li class="d-none d-lg-block"><a class="text-white text-decoration-none hover-underline" href="#">EN</a>
+            </li>
+            <!--offcanvas Bootstrap-->
+            <li class="d-block d-lg-none "><a class="btn text-white text-decoration-none" type="button"
+                data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop"
+                href="#">Menu</a></li>
+          </div>
+          <li><a href="#"><img src="images/1.apng" class="img1"></a></li>
+          <li><a class="text-white text-decoration-none hover-underline" href="#">Search</a></li>
+        </ul>
+      </div>
+
+      <!--Accordion Bootstrap-->
+      <div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop"
+        aria-labelledby="staticBackdropLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="staticBackdropLabel">Close</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  VEHICLES
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="d-flex flex-column">
+                  <h6>Mercedes-Benz</h6>
+                  <h6>Mercedes-AMG</h6>
+                  <h6>World of G</h6>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  ART & CULTURE
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+                  <code>.accordion-flush</code> class. This is the second item’s accordion body. Let’s imagine this
+                  being filled with some actual content.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  SUSTAINABILITY
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+                  <code>.accordion-flush</code> class. This is the third item’s accordion body. Nothing more exciting
+                  happening here in terms of content, but just filling up the space to make it look, at least at first
+                  glance, a bit more representative of how this would look in a real-world application.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                  DESIGN
+                </button>
+              </h2>
+              <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+                  <code>.accordion-flush</code> class. This is the second item’s accordion body. Let’s imagine this
+                  being filled with some actual content.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                  INNOVATION
+                </button>
+              </h2>
+              <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+                  <code>.accordion-flush</code> class. This is the second item’s accordion body. Let’s imagine this
+                  being filled with some actual content.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                  EXCLUSIVE
+                </button>
+              </h2>
+              <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+                  <code>.accordion-flush</code> class. This is the second item’s accordion body. Let’s imagine this
+                  being filled with some actual content.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!--nav2-->
+      <div class="nav2 col-12 w-100  bg-black d-none d-lg-block">
+        <ul class="col-12 d-flex justify-content-around align-items-center list-unstyled">
+          <li><a class="text-white text-decoration-none hover-underline" href="#">VEHICLES</a></li>
+          <li><a class="text-white text-decoration-none hover-underline" href="#">ART & CULTURE</a></li>
+          <li><a class="text-white text-decoration-none hover-underline" href="#">SUSTAINABILITY</a></li>
+          <li><a class="text-white text-decoration-none hover-underline" href="#">DESIGN</a></li>
+          <li><a class="text-white text-decoration-none hover-underline" href="#">INNOVATION</a></li>
+          <li><a class="text-white text-decoration-none hover-underline" href="#">EXCLUSIVE</a></li>
+        </ul>
+      </div>
+
+
+      <!--video & text on it-->
+      <div class="box-video p-0 position-relative">
+        <video src="videos/01.mp4" class="w-100 col-12" autoplay muted loop></video>
+        <div
+          class="box-text-video col-12 position-absolute top-0  d-flex flex-column justify-content-center align-items-center pt-5 justify-content-lg-start align-items-lg-start  text-white text-center text-lg-start ">
+          <div>
+            <h2>Winning mentality.On every road.</h2>
+            <p>Congratulations to Kimi Antonelli on winning the World Championship! Discover how the spirit of Formula
+              1®
+              inspires innovation, performance, and progress at Mercedes‑Benz.</p>
+            <button type="button" class="btn btn-light rounded-pill">Explore more<i
+                class="bi bi-chevron-right ps-2"></i></button>
+          </div>
+        </div>
+      </div>
+
+
+      <!--images-->
+      <div class="car-image d-inline-block d-flex flex-column ">
+
+        <div class="box-image box-image-right  pb-4 pb-lg-2 align-items-start">
+          <div class="col-12 ">
+            <h6>Vehicles</h6>
+            <p>World premieer of the all-new Mercedes-AMG GT SUV.THE 140 FESTIVAL.</p>
+          </div>
+          <div class="img-box col-12">
+            <img src="images/2.avif" class="w-100">
+          </div>
+        </div>
+
+        <div class="box-image box-image-left ms-auto pb-4 mb-lg-3 align-items-start">
+          <div class="col-12 ">
+            <h6>Vehicles</h6>
+            <p>Maybach x LeBorn James.</p>
+          </div>
+          <div class="img-box col-12">
+            <img src="images/4.avif" class="w-100">
+          </div>
+        </div>
+
+        <div class="box-image box-image-right pb-4 mb-lg-3">
+          <div class="col-12 ">
+            <h6>Where you beign.</h6>
+            <p>The new GLA.</p>
+          </div>
+          <div class="img-box col-12">
+            <img src="images/3.avif" class="w-100">
+          </div>
+        </div>
+
+        <div class="box-image box-image-left ms-auto pb-4 mb-lg-3">
+          <div class="col-12 ">
+            <h6>Vehicles</h6>
+            <p>The new S-Class.</p>
+          </div>
+          <div class="img-box col-12">
+            <img src="images/5.avif" class="w-100">
+          </div>
+        </div>
+
+        <div class="box-image box-image-right pb-4 mb-lg-3">
+          <div class="col-12 ">
+            <h6>Milestones</h6>
+            <p>140 YEARS.140 PLACES.</p>
+          </div>
+          <div class="img-box col-12">
+            <img src="images/8.avif" class="w-100">
+          </div>
+        </div>
+      </div>
+
+      <!--black box-->
+      <div class="row black-box bg-black w-100 m-0">
+        <div class="col-12 col-md-6 text-white order-first">
+          <h6>Vehicles</h6>
+          <p class="m-0">The new C-Class:</p>
+          <p>Welcome home.</p>
+        </div>
+        <div class="col-12 col-md-6 order-0">
+          <img src="images/6.webp" class="w-100">
+        </div>
+        <button type="button" class="btn btn-light mt-4 rounded-pill ">Explore more<i
+            class="bi bi-chevron-right ps-2"></i></button>
+      </div>
+
+
+      <!--Follow Benz-->
+      <div class="row p-0 m-0 justify-content-center">
+        <div class="follow-box  col-12 text-center">
+          <p class="text-center mb-5">Follow Mercedes-Benz</p>
+          <div class="icon d-inline-flex flex-wrap justify-content-center ">
+            <a href=""><i class="bi bi-instagram text-black"></i></a>
+            <a href=""><i class="bi bi-facebook text-black"></i></a>
+            <a href=""><i class="bi bi-twitter-x text-black"></i></a>
+            <a href=""><i class="bi bi-linkedin text-black"></i></a>
+            <a href=""><i class="bi bi-youtube text-black"></i></a>
+            <a href=""><i class="bi bi-tiktok text-black"></i></a>
+          </div>
+        </div>
+      </div>
+
+
+      <!--Footer-->
+      <footer class="footer-benz text-white bg-black py-5">
+        <div class="container">
+
+          <div
+            class="footer-main-wrapper d-flex flex-wrap flex-lg-column flex-xxl-row justify-content-xxl-between align-items-start">
+
+            <div class="footer-brand text-align-left mb-4">
+              <h3 class="brand-text text-start m-0">Mercedes-Benz</h3>
+            </div>
+
+            <!--soton-4-->
+            <div class="footer-links d-flex flex-wrap justify-content-lg-between">
+
+              <!--1-->
+              <div class="footer-col flex-row flex-lg-column d-flex">
+                <h5 class="footer-title">EXPERIENCE</h5>
+                <ul class="list-unstyled footer-list">
+                  <li><a class="text-decoration-none" href="#">Mercedes-Benz Museum</a></li>
+                  <li><a class="text-decoration-none" href="#">Mercedes-Benz Studios</a></li>
+                  <li><a class="text-decoration-none" href="#">G-Class Experience Center</a></li>
+                  <li><a class="text-decoration-none" href="#">Mercedes-Benz Driving Events</a></li>
+                  <li><a class="text-decoration-none" href="#">Book a test drive</a></li>
+                </ul>
+              </div>
+
+              <!--2-->
+              <div class="footer-col flex-row flex-lg-column d-flex">
+                <h5 class="footer-title">PURCHASE</h5>
+                <ul class="list-unstyled footer-list">
+                  <li><a class="text-decoration-none" href="#">Cars</a></li>
+                  <li><a class="text-decoration-none" href="#">Service & Parts</a></li>
+                  <li><a class="text-decoration-none" href="#">Mercedes-Benz Accessories</a></li>
+                  <li><a class="text-decoration-none" href="#">Mercedes-Benz GUARD</a></li>
+                  <li><a class="text-decoration-none" href="#">Fleet Sales</a></li>
+                  <li><a class="text-decoration-none" href="#">Diplomatic Sales</a></li>
+                </ul>
+              </div>
+
+              <!--3-->
+              <div class="footer-col flex-row flex-lg-column d-flex">
+                <h5 class="footer-title">LOGIN</h5>
+                <ul class="list-unstyled footer-list">
+                  <li><a class="text-decoration-none" href="#">SILVER ARROWS</a></li>
+                  <li><a class="text-decoration-none" href="#">Mercedes-Benz Community</a></li>
+                  <li><a class="text-decoration-none" href="#">AMG Private Lounge</a></li>
+                  <li><a class="text-decoration-none" href="#">Mercedes me ID</a></li>
+                </ul>
+              </div>
+
+              <!--4-->
+              <div class="footer-col flex-row flex-lg-column d-flex">
+                <h5 class="footer-title">LEARN</h5>
+                <ul class="list-unstyled footer-list">
+                  <li><a class="text-decoration-none" href="#">Mercedes-Benz Group</a></li>
+                  <li><a class="text-decoration-none" href="#">Careers</a></li>
+                  <li><a class="text-decoration-none" href="#">Media Site</a></li>
+                  <li><a class="text-decoration-none" href="#">Real Driving Emissions</a></li>
+                  <li><a class="text-decoration-none" href="#">Li-ion UN 38.3</a></li>
+                  <li><a class="text-decoration-none" href="#">Training for Dealers</a></li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="footer-bottom-text mt-4">
+            <a class="text-decoration-none">
+              <p class="small small-text text-white pb-5">Visit your local
+                Mercedes-Benz website to discover all vehicles and services available in your country.</p>
+            </a>
+            <p class="small small-text pb-5">[1] The stated values were determined in accordance with the
+              prescribed WLTP (Worldwide harmonised Light vehicles Test Procedure) measurement procedure. The ranges
+              given refer to the German market. The fuel consumption, energy consumption and CO₂ emissions of a car
+              depend not only on the efficient use of the fuel or energy source by the car, but also on driving style
+              and other non-technical factors. </p>
+            <!--Line-->
+            <hr class="divider w-100 border border-secondry">
+            <!--Legal Links-->
+            <div class="legal-links d-flex flex-wrap gap-3 mt-4 py-5">
+              <a class="text-decoration-none" href="#">Provider</a>
+              <a class="text-decoration-none" href="#">Legal Notice</a>
+              <a class="text-decoration-none" href="#">Settings</a>
+              <a class="text-decoration-none" href="#">Privacy Statement</a>
+              <a class="text-decoration-none" href="#">Third Party License Notice</a>
+              <a class="text-decoration-none" href="#">Do Not Sell Or Share My Personal Information (CCPA)</a>
+              <a class="text-decoration-none" href="#">Information on Accessibility</a>
+              <a class="text-decoration-none" href="#">Contact</a>
+            </div>
+
+            <div class=" copyright small-text d-flex justify-content-between pb-5">
+              © 2026 Mercedes-Benz AG.
+              <a class="text-decoration-none" href="#top"><i class="bi bi-chevron-double-up"></i></a>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+
+
+
+
+
+    </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

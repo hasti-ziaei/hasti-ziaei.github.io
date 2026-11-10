@@ -1,0 +1,362 @@
+/*Fonts*/
+@font-face {
+    font-family: 'benz1';
+    src: url('../font/1/Font.woff2') format('woff2'),
+        url('../font/1/Font.woff2') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'benz2';
+    src: url('../font/2/Font.woff2') format('woff2'),
+        url('../font/2/Font.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'benz3';
+    src: url('../font/3/Font.woff2') format('woff2'),
+        url('../font/3/Font.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'benz4';
+    src: url('../font/4/Font.woff2') format('woff2'),
+        url('../font/4/Font.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/*Navigations*/
+.nav1 ul {
+    height: 72px;
+}
+
+.nav1 a {
+    font-family: 'benz3';
+    font-size: 15px;
+}
+
+.nav2 {
+    margin-top: 72px;
+}
+
+.nav2 ul {
+    height: 50px;
+}
+
+.nav2 a {
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+
+/*Underline nav items*/
+.hover-underline {
+    position: relative;
+}
+
+.hover-underline::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: width 0.3s ease-in-out;
+}
+
+.hover-underline:hover::after {
+    width: 100%;
+}
+
+
+/*5 image boxs*/
+.img-box {
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.img-box img {
+    transition: transform 0.4s ease;
+}
+
+.box-image:hover .img-box img {
+    transform: scale(1.03);
+}
+/*
+.btn:hover {
+    background-color: rgb(36, 110, 228);
+    color: white;
+}
+*/
+
+
+/*Break points for images*/
+
+@media all and (min-width:0px) and (max-width:575px) {
+   .box-image {
+        max-width: 280px;
+    } 
+}
+@media all and (min-width:576px) and (max-width:767px) {
+   .box-image {
+        max-width: 350px;
+    }
+}
+@media all and (min-width:768px) and (max-width:991px) {
+   .box-image {
+        max-width: 400px;
+    } 
+}
+@media all and (min-width:992px) and (max-width:1199px) {
+   .box-image {
+        max-width: 450px;
+    } 
+}
+@media all and (min-width:1200px) and (max-width:1399px) {
+   .box-image {
+        max-width: 480px;
+    } 
+}
+@media all and (min-width:1200px) {
+   .box-image {
+        max-width: 550px;
+    } 
+}
+
+
+/*Break points*/
+@media all and (min-width:0px) and (max-width:991px) {
+    .box-text-video {
+        margin-top: 70px;
+        padding: 0px 20px 0px 20px;
+    }
+
+    .box-text-video p {
+        max-width: 500px;
+    }
+
+    .box-video{
+        height: 75vh;
+    }
+
+    .box-video video {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .car-image {
+        padding: 48px 16px 96px 16px;
+    }
+
+    .car-image p {
+        font-size: 20px;
+        font-family: 'benz4';
+    }
+
+    .black-box {
+        padding: 96px 16px 96px 16px;
+    }
+
+    .black-box .btn {
+        max-width: 150px;
+        height: fit-content;
+    }
+
+    .black-box h6 {
+        font-size: 16px;
+    }
+
+    .black-box p {
+        font-size: 40px;
+    }
+
+    .follow-box {
+        padding: 100px 50px 100px 50px;
+    }
+
+    .follow-box p {
+        font-size: 32px;
+    }
+
+    .icon {
+        column-gap: 64px;
+        row-gap: 40px;
+        font-size: 24px;
+    }
+}
+
+
+@media all and (min-width:992px) {
+    .box-text-video {
+        margin-left: 120px;
+        margin-top: 100px;
+        width: 500px;
+        font-size: 18px;
+    }
+
+    .car-image {
+        padding: 64px 116px 128px 116px;
+    }
+
+    .box-image-right {
+        padding-left: 50px;
+    }
+
+    .box-image-left {
+        padding-right: 50px;
+    }
+
+    .car-image p {
+        font-size: 34px;
+        font-family: 'benz4';
+    }
+
+    .black-box {
+        padding: 128px 116px 128px 116px;
+        height: 730px;
+    }
+
+    .black-box h6 {
+        font-size: 16px;
+    }
+
+    .black-box p {
+        font-size: 48px;
+    }
+
+    .follow-box {
+        padding: 100px 100px 100px 100px;
+    }
+
+    .follow-box p {
+        font-size: 60px;
+    }
+
+    .icon {
+        column-gap: 100px;
+        row-gap: 40px;
+        font-size: 40px;
+    }
+}
+
+.black-box .btn {
+    max-width: 150px;
+    height: fit-content;
+}
+
+
+
+
+/*Footer*/
+
+.brand-text {
+    font-family: 'benz4';
+    font-size: 40px;
+}
+
+.footer-benz a {
+    color: grey;
+    font-size: 15px;
+    line-height: 1.5;
+    transition: color 0.2s;
+}
+
+.footer-benz a:hover {
+    color: white;
+}
+
+.footer-title {
+    font-size: 16px;
+    font-family: 'benz2';
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.small-text {
+    color: grey;
+    font-size: 14px;
+}
+
+
+@media (min-width: 1400px) {
+
+    .footer-brand {
+        width: 28%;
+    }
+
+    .footer-links {
+        width: 72%;
+    }
+
+    .footer-col {
+        width: 22%;
+    }
+
+    .footer-title {
+        margin-bottom: 20px;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1399px) {
+
+    .footer-brand {
+        width: 100%;
+        margin-bottom: 35px !important;
+    }
+
+    .footer-links {
+        width: 100%;
+    }
+
+    .footer-col {
+        width: 23%;
+    }
+
+    .footer-title {
+        margin-bottom: 20px;
+    }
+}
+
+
+@media (min-width: 0px) and (max-width:991px) {
+
+    .footer-brand {
+        width: 100%;
+        margin-bottom: 35px !important;
+    }
+
+    .footer-links {
+        width: 100%;
+    }
+
+    .footer-col {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+
+    .footer-title {
+        width: 45%;
+        margin-bottom: 0;
+    }
+
+    .footer-list {
+        width: 55%;
+    }
+}
+
+.copyright {
+    margin-top: 90px;
+}
